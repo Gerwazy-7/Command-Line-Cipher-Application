@@ -3,3 +3,6 @@ build/
 out/
 bin/
 *.user
+
+outcomes/*
+!outcomes/.gitkeep
