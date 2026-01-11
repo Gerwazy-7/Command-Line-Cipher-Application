@@ -1,5 +1,5 @@
-cmake_minimum_required(VERSION 3.20)
-project(Data_encoding_library VERSION 1.0)
+cmake_minimum_required(VERSION 3.11s)
+project(Command-Line-Cipher-Application VERSION 1.0)
 
 file(GLOB SOURCES "src/*.cpp")
 

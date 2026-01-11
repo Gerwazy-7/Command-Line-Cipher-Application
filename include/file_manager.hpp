@@ -28,8 +28,8 @@ namespace JR
         template <typename T>
         void write_to_file(T key, std::string string, std::string filename)
         {
-            constexpr std::string folder = "../outcomes/";    
-            constexpr std::string filetype = ".txt";
+            const std::string folder = "../outcomes/";    
+            const std::string filetype = ".txt";
             const std::string file = folder + filename + filetype;
             std::ofstream MyFile(file);
             
