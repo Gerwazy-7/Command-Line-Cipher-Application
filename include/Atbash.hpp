@@ -26,6 +26,11 @@ namespace JR
     {
         public:
             /**
+             * \brief Default constructor.
+             */
+            Atbash() = default;
+            
+            /**
              * \brief Parametrized constructor.
              * Initializes Atbash with given data.
              * \param data_val Vector of strings to be encrypted/decrypted.
@@ -42,7 +47,7 @@ namespace JR
             std::string encode() override;
             
             /**
-             * \brief It decrypts given data
+             * \brief It decrypts given data.
              * As cipher is symmetrical, function encode is used
              * to decode.
              * \return Decoded string

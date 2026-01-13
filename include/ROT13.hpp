@@ -23,6 +23,11 @@ namespace JR
         
         public:
             /**
+             * \brief Default constructor.
+             */
+            ROT13() = default;
+
+            /**
              * \brief Parametrized constructor.
              * As ROT13 is a Caesar cipher with fixed key of 13, it initializes
              * Caesar with given data and a fixed key.

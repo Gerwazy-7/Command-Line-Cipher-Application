@@ -37,9 +37,14 @@ namespace JR
             /**
              * \brief Key used in working on data.
              */
-            int m_key;
+            int m_key = 0;
         
         public:
+            /**
+             * \brief Default constructor.
+             */
+            Caesar() = default;
+            
             /**
              * \brief Parametrized constructor.
              * Initializes Caesar with given data and key.

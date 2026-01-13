@@ -27,6 +27,11 @@ class Cipher
         std::vector<std::string> m_data;
 
     public:
+            /**
+             * \brief Default constructor.
+             */
+            Cipher() = default;
+
         /**
          * \brief Parametrized constructor.
          * It initialies Cipher with given data. It is used
