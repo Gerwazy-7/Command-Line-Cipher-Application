@@ -28,11 +28,6 @@ class Cipher
 
     public:
         /**
-         * \brief Default constructor.
-         */
-        Cipher() = default;
-
-        /**
          * \brief Parametrized constructor.
          * It initialies Cipher with given data. It is used
          * by inheriting functions.

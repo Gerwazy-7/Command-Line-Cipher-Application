@@ -19,18 +19,12 @@ namespace JR
 {
     /**
      * \brief Definition of class Atbash.
-     * It inherits from class Cipher. It has two constructors: default
-     * and parametrized and also method encode() and decode().
+     * It inherits from class Cipher. It has parametrized constructor 
+     * and also method encode() and decode().
      */
     class Atbash: public Cipher
     {
         public:
-            
-            /**
-             * \brief Default constructor.
-             */
-            Atbash() = default;
-            
             /**
              * \brief Parametrized constructor.
              * Initializes Atbash with given data.

@@ -19,8 +19,8 @@ namespace JR
 {
     /**
      * \brief Definition of class Caesar.
-     * It inherits from class Cipher. It has two constructors: default
-     * and parametrized and also methods run_caesar_cipher(), key_check(),
+     * It inherits from class Cipher. It has parametrized constructor
+     *  and also methods run_caesar_cipher(), key_check(),
      * encode() and decode().
      */
     class Caesar: public Cipher
@@ -34,18 +34,12 @@ namespace JR
              */
             std::string run_caesar_cipher(int used_key);
 
-        protected:
             /**
              * \brief Key used in working on data.
              */
             int m_key;
         
         public:
-            /**
-             * \brief Default constructor.
-             */
-            Caesar() = default;
-            
             /**
              * \brief Parametrized constructor.
              * Initializes Caesar with given data and key.

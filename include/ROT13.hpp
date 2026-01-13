@@ -16,18 +16,12 @@ namespace JR
 {
     /**
      * \brief Definition of class ROT13.
-     * It inherits from Class Caesar. It has two constructors: default
-     * and parametrized.
+     * It inherits from Class Caesar. It has parametrized constructor.
      */
     class ROT13: public JR::Caesar
     {
         
         public:
-            /**
-             * \brief Default constructor.
-             */
-            ROT13() = default;
-
             /**
              * \brief Parametrized constructor.
              * As ROT13 is a Caesar cipher with fixed key of 13, it initializes
