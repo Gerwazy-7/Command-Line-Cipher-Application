@@ -46,7 +46,7 @@ namespace JR
          * \brief Get the name of the cipher that user wants to use.
          * It shows available ciphers, gets user's choice, changes it
          * to lower case and informs if it's incorrect.
-         * * \note Functions work in a while loop until it gets data in correct form.
+         * \note Functions work in a while loop until it gets data in correct form.
          * \warning This function returns pointer to a Cipher object created with "new".
          * User is responsible for deleting it.
          * \return Struct that holds information about:
@@ -72,7 +72,7 @@ namespace JR
         /**
          * \brief Process data with previously chosen cipher and it's parameters.
          * Function calles appriopriate methods (encode/decode) and save outcome data to file.
-         * * \note If previously chosen mode is "exit" it cleans up and signals to end program
+         * \note If previously chosen mode is "exit" it cleans up and signals to end program
          * \attention Function automatically deletes previously created Cipher object.
          * \return true if mode is not "exit", false if it is.
          */
