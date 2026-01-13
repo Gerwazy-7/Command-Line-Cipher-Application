@@ -77,7 +77,7 @@ int JR::Caesar::key_check(const std::string& key)
     // Throw error if given string is empty.
     if (key.empty())
     {
-        throw std::invalid_argument("[!] Key cannot be emtpty!");
+        throw std::invalid_argument("[!] Key cannot be empty!");
     }
     // Throw error if only given data is a sign of a number.
     if ((key[0] == '-') || (key[0] == '+'))
@@ -96,7 +96,7 @@ int JR::Caesar::key_check(const std::string& key)
             throw std::invalid_argument("[!] Key must be a number!");
         }
     }
-    // Convert given string to intiger.
+    // Convert given string to integer.
     int int_key = stoi(key);
     // CHeck if given number is in proper range and throw error if it is not.
     if (int_key < -26 || int_key > 26)
